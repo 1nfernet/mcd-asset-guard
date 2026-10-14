@@ -9,10 +9,21 @@ from src.models import (
     fen_display,
     month_end,
     next_month_end,
+    parse_dt,
     parse_points,
     tier_for,
     yuan_to_fen,
 )
+
+
+def test_parse_dt_invalid_unicode_empty_and_unstringable_values():
+    class Unstringable:
+        def __str__(self):
+            raise TypeError("invalid API value")
+
+    assert parse_dt("") is None
+    assert parse_dt("２０２６-１０-１４") is None
+    assert parse_dt(Unstringable()) is None
 
 
 def test_parse_points_keeps_decimal():

@@ -48,9 +48,13 @@ def parse_dt(s):
     """接口时间字符串 -> datetime；解析失败返回 None（不抛异常）。"""
     if not s:
         return None
+    try:
+        value = str(s)
+    except (TypeError, ValueError):
+        return None
     for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d"):
         try:
-            return dt.datetime.strptime(str(s), fmt)
+            return dt.datetime.strptime(value, fmt)
         except ValueError:
             continue
     return None
