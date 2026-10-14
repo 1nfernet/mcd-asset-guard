@@ -1,0 +1,22 @@
+{
+  "content_type": "application/json",
+  "json": {
+    "success": true,
+    "code": 200,
+    "message": "请求成功",
+    "datetime": "2026-10-14 12:44:57",
+    "traceId": "811ba265327a5c07c50f125bfc161f9f",
+    "data": {
+      "availablePoint": "842.9",
+      "accountId": "1D93F1BE-70F9-000A-0007-000000000000",
+      "accumulativePoint": "7557.5",
+      "currency": "麦享会积分",
+      "currentMouthExpirePoint": "43.8",
+      "expiredPoint": "2409.6",
+      "frozenPoint": "0",
+      "lastMouthExpirePoint": "0",
+      "nextMouthExpirePoint": "0",
+      "usedPoint": "4305"
+    }
+  }
+}

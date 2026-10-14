@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <rect width="760" height="300" fill="#ffffff"/>
+  <text x="28" y="40" font-size="19" font-weight="600" fill="#1f2328">多人拼单重排（v1.1 规划）</text>
+  <text x="28" y="63" font-size="12.5" fill="#59636e">8 人团餐场景：同一批餐品，不同拆单方式，券与满减的利用完全不同</text>
+
+  <rect x="28" y="86" width="336" height="182" rx="10" fill="#fdf2f2" stroke="#e0a0a0" stroke-width="1"/>
+  <text x="48" y="114" font-size="14" font-weight="600" fill="#a32d2d">整单直接下单</text>
+  <text x="48" y="144" font-size="13" fill="#5f5e5a">订单金额</text>
+  <text x="200" y="144" font-size="13" fill="#a32d2d">¥286</text>
+  <text x="48" y="172" font-size="13" fill="#5f5e5a">用券情况</text>
+  <text x="200" y="172" font-size="13" fill="#a32d2d">满减门槛没用满</text>
+  <text x="48" y="200" font-size="13" fill="#5f5e5a">人均</text>
+  <text x="200" y="200" font-size="15" font-weight="600" fill="#a32d2d">¥35.75</text>
+  <text x="48" y="234" font-size="12.5" fill="#7a7a75">券的适用餐品、时段、渠道都被忽略了</text>
+
+  <rect x="396" y="86" width="336" height="182" rx="10" fill="#eef7f1" stroke="#7fb79a" stroke-width="1"/>
+  <text x="416" y="114" font-size="14" font-weight="600" fill="#0f6e56">重排后（枚举 + 剪枝 + 权威复核）</text>
+  <text x="416" y="144" font-size="13" fill="#5f5e5a">订单金额</text>
+  <text x="568" y="144" font-size="13" fill="#0f6e56">¥214</text>
+  <text x="416" y="172" font-size="13" fill="#5f5e5a">省下</text>
+  <text x="568" y="172" font-size="13" fill="#0f6e56">¥72</text>
+  <text x="416" y="200" font-size="13" fill="#5f5e5a">8 人平摊人均省</text>
+  <text x="568" y="200" font-size="13" fill="#0f6e56">¥9</text>
+  <text x="416" y="228" font-size="13" fill="#5f5e5a">分账精度</text>
+  <text x="568" y="228" font-size="15" font-weight="600" fill="#0f6e56">精确到分、总额守恒</text>
+
+  <line x1="380" y1="86" x2="380" y2="268" stroke="#d8d8d2" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="28" y="288" font-size="11.5" fill="#8a8a85">状态：v1.1 规划中（Phase 2）。组合穷举与分账计算全部本地代码实现，不让大模型做算术。</text>
+</svg>

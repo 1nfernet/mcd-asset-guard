@@ -1,0 +1,23 @@
+{
+  "content_type": "application/json",
+  "json": {
+    "success": true,
+    "code": 200,
+    "message": "请求成功",
+    "datetime": "2026-10-14 12:44:50",
+    "traceId": "4e79bf98de18c541ed4479742a6d91",
+    "data": {
+      "timestamp": 1791953090945,
+      "datetime": "2026-10-14T12:44:50.945",
+      "formatted": "2026-10-14 12:44:50",
+      "date": "2026-10-14",
+      "year": 2026,
+      "month": 10,
+      "day": 14,
+      "dayOfWeek": "WEDNESDAY",
+      "timezone": "GMT+08:00",
+      "offset": "+08:00",
+      "utc": "2026-10-14T04:44:50.945Z"
+    }
+  }
+}

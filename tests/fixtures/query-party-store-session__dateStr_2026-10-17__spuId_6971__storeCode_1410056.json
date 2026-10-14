@@ -1,0 +1,15 @@
+{
+  "content_type": "application/json",
+  "json": {
+    "success": true,
+    "code": 200,
+    "message": "请求成功",
+    "datetime": "2026-10-14 12:47:31",
+    "traceId": "e0c35037d8320ce78c6dc9463090556e",
+    "data": [
+      { "id": 35557157, "timeStart": "17:00", "timeEnd": "19:00", "partyMin": 5, "partyMax": 12, "price": 19800, "cookEmpNo": "", "opEmpNo": "12357886", "rgmEmpNo": "12357886", "leftNum": 12 },
+      { "id": 35557187, "timeStart": "19:30", "timeEnd": "21:30", "partyMin": 5, "partyMax": 12, "price": 19800, "cookEmpNo": "", "opEmpNo": "12357886", "rgmEmpNo": "12357886", "leftNum": 12 },
+      { "id": 35557250, "timeStart": "12:15", "timeEnd": "14:15", "partyMin": 5, "partyMax": 12, "price": 19800, "cookEmpNo": "", "opEmpNo": "12357886", "rgmEmpNo": "12357886", "leftNum": 12 }
+    ]
+  }
+}

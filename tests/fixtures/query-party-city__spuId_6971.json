@@ -1,0 +1,16 @@
+{
+  "content_type": "application/json",
+  "json": {
+    "success": true,
+    "code": 200,
+    "message": "请求成功",
+    "datetime": "2026-10-14 12:47:01",
+    "traceId": "6af71eb1c36279c15e40ea317448af4c",
+    "data": [
+      { "code": 350100, "latitude": 26.074286, "longitude": 119.296411, "name": "福州市", "initial": "F", "sortNo": 82 },
+      { "code": 350200, "latitude": 24.479627, "longitude": 118.08891, "name": "厦门市", "initial": "X", "sortNo": 328 },
+      { "code": 350500, "latitude": 24.874452, "longitude": 118.675724, "name": "泉州市", "initial": "Q", "sortNo": 244 },
+      { "code": 350800, "latitude": 25.075884, "longitude": 117.017362, "name": "龙岩市", "initial": "L", "sortNo": 194 }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "content_type": "application/json",
+  "json": {
+    "success": true,
+    "code": 200,
+    "message": "请求成功",
+    "datetime": "2026-10-14 12:47:11",
+    "traceId": "c65d8da590833d7ee9a890bc2e380a1a",
+    "data": [
+      {
+        "address": "石鼓路120号集宏大厦一楼",
+        "cityCode": "350200",
+        "cityName": "厦门市",
+        "latitude": 24.574233,
+        "longitude": 118.099321,
+        "name": "麦当劳厦门石鼓路餐厅",
+        "shortName": "厦门石鼓路餐厅",
+        "code": "1410056",
+        "distance": 10566,
+        "distanceText": "10.6km",
+        "businessStatus": 1,
+        "onlineBusinessStatus": true
+      }
+    ]
+  }
+}
